@@ -74,6 +74,10 @@ There is also a bootstrap contact form which encourages the user to fill in thei
 
 The footer is fixed to the bottom of all five pages and holds a brief one-line summary about the photographer, a line stating that the website was designed for education purposes, and three font-awesome icons which link to the Facebook, Twitter and Instagram profiles of the photographer.
 
+### Features Left to Implement
+
+In the future I would like to add feature to the page that allows users to purchase prints directly from the photographer.  I would also like to add a calendar schedule to the site which the photographer could populate with upcoming events and games, as well as highlight availability for booking.
+
 
 ## Technologies Used
 
@@ -99,7 +103,7 @@ The footer is fixed to the bottom of all five pages and holds a brief one-line s
  - The contact form on the contact page also contains the required attribute for   email and phone number, and this functions correctly
  - The hover styling on the navbar and the links were manually tested and all     were operational.
  - All buttons across the site pages were manually tested and operational
- - HTML and CSS code were checked on the W3C Markup and CSS Jigsaw validators
+ - HTML and CSS code were checked on the [W3C Markup](https://validator.w3.org/) and [CSS Jigsaw](https://jigsaw.w3.org/css-validator/) validators
  - Manually tested the three social links which all open in a new browser window   and link to their intended pages. 
 
 ### Issues when Testing
@@ -124,9 +128,13 @@ Again this customer's experience has been met as the site landing page features 
 
 The website is hosted using GitHub pages which were deployed directly from the master branch. The site that is deployed will automatically update itself when new commits are made to the master branch. 
 
-To run the code locally, you must clone this repository directly into an editor of your choosing and paste into your terminal `git clone https://github.com/cgaynor91/John-Gaynor-Construction.git` . If you then wish to terminate ties with this repostiory enter `git remote rm origin` into your terminal. 
+To run the code locally, you must clone this repository directly into an editor of your choosing and paste into your terminal `git clone https://github.com/cgaynor91/John-Gaynor-Construction.git`
+
 
 ## Credits
+
+### Thanks
+Thanks to Anna_lead for the idea to use FancyBox for the responsive gallery, as seen in her [portrait artist website](https://ajgreaves.github.io/portrait-artist/gallery.html) which she kindly linked on Slack for those of us who were struggling!
    
 ### Content
 
@@ -140,6 +148,8 @@ To run the code locally, you must clone this repository directly into an editor 
 - FavIcon was generated using the online [FavIcon Generator](https://www.favicongenerator.com/)
 
 ## Acknowledgements
+
+Thanks to a very kind and patient husband, who happens to also be a wonderful sports photographer ;-)
 
 
 
