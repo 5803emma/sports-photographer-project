@@ -50,6 +50,20 @@ There are 6 card features which display the different types of photography offer
 
 There is a button at the end of the page which encourages the user to get in contact with the photographer.  This button links to the contact page. 
 
+
+### About Page
+
+As well as some images and background information about the photographer, there are two embedded YouTube videos on this page.
+
+
+### Social Page
+
+There is a panoramic landing image and three info cards on this page. Each card has a button which will open a new tab for the user and direct them to the social media profile they wish to visit.
+
+### Gallery Page
+
+There are 24 images thumbnail images on this page.  Clicking on any one of the images will allow the user to navigate through a responsive FancyBox gallery.  There is a button at the bottom of this page which links the user to the Social page of the website should they wish to view more images on social media.
+
 ### Contact Page
 
 The contact page has a section which details the address, phone number and e-mail of the photography service.
@@ -79,8 +93,8 @@ The footer is fixed to the bottom of all five pages and holds a brief one-line s
 
 ## Testing 
 
- - I used [Browserling](https://www.browserling.com/) to test the website across   multiple browsers to ensure compatability and responsiveness.
  - Google Chrome developer tools were used to test responsiveness across various   devices sizes and operating systems
+ - I used [Browserling](https://www.browserling.com/) to test the website across   multiple browsers to ensure compatability and responsiveness.
  - The Bootstrap enquiry form requires that a valid e-mail address is entered.    If not, a note will appear to advise the client to enter a valid e-mail        address.
  - The contact form on the contact page also contains the required attribute for   email and phone number, and this functions correctly
  - The hover styling on the navbar and the links were manually tested and all     were operational.
@@ -90,7 +104,7 @@ The footer is fixed to the bottom of all five pages and holds a brief one-line s
 
 ### Issues when Testing
 
-- When testing the website on smaller screen sizes was a small white margin on the right hand side of the screen, which sometimes created a horizontal scroll-bar.  I added `overflow-x: hidden` in my CSS which seemed to fix this issue. 
+- The responsive image gallery displayed the images correctly when in the arrow navigation view (when clicked) but in the thumbnail gallery view they looked out of proportion.  I tried to address this in CSS by setting height and width to 100% but this stretched the portrait images and, for want of a better word "squashed" the landscape images.  I removed the height property which restored the thumbnail images to their correct proportions, but they were then all different size thumbnails.
 
 - I linked the website to friends and family to see if they could find issues that I might have been missing due to over-familiarity with the site.  I asked asked for feedback about the UX.  I received positive feedback, the only issue that was reported was that some of the images were a bit slow to load.  I ran these files through the tinyjpg website, however, as they were extremely large files to begin with, this did not reduce the size by as much as I had hoped.
 
