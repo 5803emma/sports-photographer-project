@@ -27,7 +27,8 @@ However, it was important not to overload the user by placing too much text-base
 
 ## Wireframes
 
-
+![Site Hierarchy](wireframes/flowchart.jpg)
+![Desktop Wireframe](wireframes/desktopwireframe.jpg)
 
 
 
