@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+
+body {
+  padding-top: 56px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-color: #fafcff;
+  font-family: 'Montserrat', sans-serif;
+  background-image: url("../images/bodybackground.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+/*----------Navbar*/
+
+.navbar-brand {
+  border: 1px solid #fafafa;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+.navbar-brand:hover {
+  background-color: #003366;
+  transform: scale(1.1);
+}
+
+
+.navbar-default {
+  padding: 20px;
+  margin-bottom: 0;
+  background-color: #354c7c;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.navbar-default a:hover {
+  color: #fafafa;
+  transform:scale(1.1);
+}
+
+
+/*-----------End Navbar*/
+
+
+/*----------Carousel*/
+
+.carousel-item {
+  height: 98vh;
+  min-height: 350px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    right: 15%;
+    bottom: 20px;
+    left: 15%;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+.carousel-caption {
+    font-size: 25px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+
+/*--------End Carousel*/
+
+
+/*-----------Services Section*/
+
+.my-4 {
+  color: #354c7c;
+  padding-top: 20px;
+}
+
+.card {
+  border-radius: 5px;
+}
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.col-lg-6 {
+  background-color: #354c7c;
+  color: #fafafa;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.card-title a {
+  text-decoration: none;
+}
+
+.card-title a:hover {
+  font-weight: bold;
+}
+
+.col-md-8 {
+  color: #fff;
+  font-weight: bold;
+}
+
+
+.btn-lg {
+  background-color: #354c7c;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.btn-lg:hover {
+  color: #fff;
+}
+
+
+/*---------End Services Section*/
+
+
+
+
+/*------------Start About*/
+
+h2 {
+  color: #354c7c;
+  padding-top: 15px;
+}
+
+h3 {
+  color: #354c7c;
+}
+
+.text-white {
+  color: #fafafa;
+}
+
+/*---------End About*/
+
+
+
+/*-----------Start Social*/
+
+.mt-4 {
+  padding-top: 20px;
+  color: #354c7c;
+}
+
+.card-header {
+  background-color: #B5D3E7;
+  color: #354c7c;
+}
+
+.card-footer {
+  background-color: #B5D3E7;
+  color: #354c7c;
+}
+
+.card a {
+  text-decoration: none;
+}
+
+.btn-info {
+  color: #fafafa;
+  background-color: #354c7c;
+  border-color: #354c7c;
+}
+
+.btn:hover {opacity: 1}
+
+/*-------End Social*/
+
+
+/*--------Start Gallery*/
+
+
+/*Original Credit: https://codepen.io/sdthornton/pen/wBZdXq via https://github.com/AJGreaves*/
+/*------*/
+.gallery-thumbnail{ 
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+          box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  -webkit-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  border-radius: 4px;
+}
+
+/*Original Credit: https://codepen.io/sdthornton/pen/wBZdXq via https://github.com/AJGreaves*/
+.gallery-thumbnail:hover { 
+/*width and height of hover shadow changed by me*/
+  -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
+          box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); 
+}
+
+.gallery-img img{
+    width: 100%;
+    
+}
+
+
+
+
+
+/*----------------Contact*/
+
+.container-contact {
+  margin-top: 50px;
+  background-image: url("../images/hurling/contactbackground.jpg");
+  background-color: #fafafa;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.col-lg-4-contact {
+   font-size: 16px;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin-top: 0;
+    padding-top: 5%;
+}
+
+.col-lg-4-contact a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.col-lg-8 {
+   font-size: 16px;
+   color: #fff;
+   background: rgba(0, 0, 0, 0.3);
+   border-radius: 10px;
+   margin-top: 0;
+   padding-top: 5%;
+   padding-bottom: 5%;
+}
+
+.justify-content-center {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+/*--------------Footer*/
+/*-----Code Credit - Adapted from the Rosie Odenkirk Portfolio Bootstrap Tutorial*/
+
+footer {
+    background-color: #354c7c;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+
+
+.social-links {
+    padding-bottom: 15px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+
+}
+
+.social-links li a i:hover {
+    background: #F8B195;
+}
+
+#footer-details {
+    padding: 20px;
+    margin-bottom: 0;
+    background-color: #354c7c;
+}
+
+/*--------End Footer*/
+
