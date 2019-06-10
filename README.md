@@ -25,7 +25,7 @@ However, it was important not to overload the user by placing too much text-base
 - As a local newspaper editor I would be interested in working with a freelance photographer who attendings sporting and community events.  I could then publish photos from these events and games in my newspaper.  I would want to see the photoprapher's previous work, to learn a bit about him as a person, and to know that there are multiple ways of contacting him should he be required at short notice for an event. 
 
 
-**Wireframes**
+## Wireframes
 
 
 
