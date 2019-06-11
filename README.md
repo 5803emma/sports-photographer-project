@@ -76,6 +76,8 @@ The footer is fixed to the bottom of all five pages and holds a brief one-line s
 
 ### Features Left to Implement
 
+It should be noted that this is not yet a commercial endeavour but the intention is to develop the reputation of the service before the service becomes a business.
+
 In the future I would like to add feature to the page that allows users to purchase prints directly from the photographer.  I would also like to add a calendar schedule to the site which the photographer could populate with upcoming events and games, as well as highlight availability for booking.
 
 
