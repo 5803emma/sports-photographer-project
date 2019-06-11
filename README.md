@@ -3,7 +3,7 @@
 This is a  responsive website designed for an independent photographer who is starting out in the business.  The idea for the website is to highlight and showcase the different services and options available to users who want to work with the photographer.
 
 
-Please click [here](https://mark-saves-the-day-emma5803.c9users.io/index.html) for a live demo of the website 
+Please click [here](https://5803emma.github.io/sports-photographer-project/) for a live demo of the website 
 
 # UX
 

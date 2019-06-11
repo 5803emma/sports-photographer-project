@@ -205,6 +205,8 @@ h3 {
   -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border-radius: 4px;
+  width: 211.36px;
+  height: 211.36px;
 }
 
 /*Original Credit: https://codepen.io/sdthornton/pen/wBZdXq via https://github.com/AJGreaves*/
@@ -310,3 +312,12 @@ footer {
 
 /*--------End Footer*/
 
+
+/*-------Media Queries*/
+
+/*desktops and XL screens*/
+@media screen and (min-width: 993px) { 
+	.gallery-row {
+		margin-top: 2rem;
+	}
+} 
