@@ -132,7 +132,7 @@ Again this customer's experience has been met as the site landing page features 
 
 The website is hosted using GitHub pages which were deployed directly from the master branch. The site that is deployed will automatically update itself when new commits are made to the master branch. 
 
-To run the code locally, you must clone this repository directly into an editor of your choosing and paste into your terminal `git clone https://github.com/cgaynor91/John-Gaynor-Construction.git`
+To run the code locally, you must clone this repository directly into an editor of your choosing and paste into your terminal `git clone https://github.com/5803emma/sports-photographer-project.git`
 
 
 ## Credits
