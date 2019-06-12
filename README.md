@@ -165,7 +165,7 @@ git clone https://github.com/USERNAME/REPOSITORY
 ## Credits
 
 ### Thanks
-Thanks to Anna_lead for the idea to use FancyBox for the responsive gallery, as seen in her [portrait artist website](https://ajgreaves.github.io/portrait-artist/gallery.html) which she kindly linked on Slack for those of us who were struggling!
+Thanks to Ignatious Mentor for the idea to use FancyBox for the responsive gallery.  Thanks to Anna_lead  for the excellent example of a FancyBox gallery as seen in her [portrait artist website](https://ajgreaves.github.io/portrait-artist/gallery.html) which she kindly linked on Slack for those of us who were struggling!
    
 ### Content
 
