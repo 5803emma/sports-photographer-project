@@ -113,8 +113,9 @@ In the future I would like to add feature to the page that allows users to purch
 ### Issues when Testing
 
 - The responsive image gallery displayed the images correctly when in the arrow navigation view (when clicked) but in the thumbnail gallery view they looked out of proportion.  I tried to address this in CSS by setting height and width to 100% but this stretched the portrait images and, for want of a better word "squashed" the landscape images.  I removed the height property which restored the thumbnail images to their correct proportions, but they were then all different size thumbnails.
-
-- I linked the website to friends and family to see if they could find issues that I might have been missing due to over-familiarity with the site.  I asked asked for feedback about the UX.  I received positive feedback, the only issue that was reported was that some of the images were a bit slow to load.  I ran these files through the tinyjpg website, however, as they were extremely large files to begin with, this did not reduce the size by as much as I had hoped.
+- To address this issue I manually resized each gallery thumbnail using Photoshop to maintain the original aspect ratio of the image as much as possible.  This rectified the problem and the thumbnails were correctly aligned.
+- Using swipe on the FancyBox gallery performs inconsistently.  I did not find a fix for this and instead added the line that users should use the arrows to navigate through the gallery images.
+- I linked the website to friends and family to see if they could find issues that I might have been missing due to over-familiarity with the site.  I asked asked for feedback about the UX.  I received positive feedback, the only issue that was reported was that some of the images were a bit slow to load.  I ran these files through the tinyjpg website. As they were all extremely large files to begin with, this did not reduce the size by as much as I had hoped, but it did seem to improve loading time.
 
 ### Addressing testing from User Stories 
 
