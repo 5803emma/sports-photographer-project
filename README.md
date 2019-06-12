@@ -105,7 +105,7 @@ In the future I would like to add feature to the page that allows users to purch
  - I used [Browserling](https://www.browserling.com/) to test the website across   multiple browsers to ensure compatability and responsiveness.
  - The Bootstrap enquiry form requires that a valid e-mail address is entered.    If not, a note will appear to advise the client to enter a valid e-mail        address.
  - The contact form on the contact page also contains the required attribute for   email and phone number, and this functions correctly
- - The hover styling on the navbar and the links were manually tested and all     were operational.
+ - The hover styling on the navbar, links and gallery thumbs were manually tested and all     were operational.
  - All buttons across the site pages were manually tested and operational
  - HTML and CSS code were checked on the [W3C Markup](https://validator.w3.org/) and [CSS Jigsaw](https://jigsaw.w3.org/css-validator/) validators
  - Manually tested the three social links which all open in a new browser window   and link to their intended pages. 
