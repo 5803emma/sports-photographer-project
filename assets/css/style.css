@@ -23,7 +23,6 @@ body {
 
 .navbar-brand:hover {
   background-color: #003366;
-  transform: scale(1.1);
 }
 
 
@@ -39,6 +38,7 @@ body {
   color: #fafafa;
   transform:scale(1.1);
 }
+
 
 
 /*-----------End Navbar*/
@@ -111,6 +111,12 @@ body {
   padding-bottom: 20px;
   border-radius: 5px;
   margin-bottom: 10px;
+}
+
+
+.card-img-top:hover {
+  transform: scale(1.01);
+  opacity: 0.9;
 }
 
 .card-title a {
@@ -232,7 +238,7 @@ h3 {
 
 /*Original Credit: https://codepen.io/sdthornton/pen/wBZdXq via https://github.com/AJGreaves*/
 .gallery-thumbnail:hover { 
-/*width and height of hover shadow changed by me*/
+
   -webkit-box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22);
           box-shadow: 0 3px 9px rgba(0,0,0,0.25), 0 3px 6px rgba(0,0,0,0.22); 
 }
