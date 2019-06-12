@@ -130,9 +130,35 @@ Again this customer's experience has been met as the site landing page features 
 
 ## Deployment
 
-The website is hosted using GitHub pages which were deployed directly from the master branch. The site that is deployed will automatically update itself when new commits are made to the master branch. 
+The website is hosted using GitHub pages which were deployed directly from the master branch. The site that is deployed will automatically update itself when new commits are made to the master branch. At the moment of submitting this Milestone project the Master Branch and Development Branch are identical. 
 
-To run the code locally, you must clone this repository directly into an editor of your choosing and paste into your terminal `git clone https://github.com/5803emma/sports-photographer-project.git`
+The project was developed using [Cloud9 IDE](https://c9.io).  It was committed to git and pushed to GitHub using the terminal in Cloud9. 
+
+To deploy this page to GitHub Pages from its [GitHub repository](https://5803emma.github.io/sports-photographer-project/), the following steps were taken: 
+
+- Log into GitHub. 
+- Select the repository **5803emma/sports-photographer-project**.
+- Go to the top of the page and select **Settings** from the menu.
+- Scroll down to the **GitHub Pages** section.
+- Under **Source** click the drop-down item **None** and choose **Master Branch**
+- This selection automatically refreshes the page and the website is deployed. 
+- Go back down to the **GitHub Pages** section to retrieve the link to the deployed website.
+
+
+
+### How to run this project locally
+
+To clone this project from GitHub:
+1. Click on this link to the [GitHub repository](https://5803emma.github.io/sports-photographer-project/).
+2. Under repository name, click the option "Clone or download".
+3. In the Clone with HTTPs section, copy the clone URL for the repository. 
+4. Open Git Bash in your local IDE.
+5. Change the current working directory to the location where you want the cloned directory to be created.
+6. Type ```git clone```, and then paste the URL copied in Step 3.
+```console
+git clone https://github.com/USERNAME/REPOSITORY
+```
+7. Press Enter and your local clone will be created.
 
 
 ## Credits
