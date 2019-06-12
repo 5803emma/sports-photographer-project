@@ -34,7 +34,7 @@ Desktop Wireframe
 ![Desktop Wireframe](wireframes/desktopwireframe.jpg)
 
 Mobile Wireframe
-![Mobile Wireframe](wireframes/mobilewireframe.jpg)
+![Mobile Wireframe](wireframes/wireframemobile.jpg)
 
 
 ## Features
