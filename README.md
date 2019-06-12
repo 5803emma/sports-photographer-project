@@ -27,12 +27,14 @@ However, it was important not to overload the user by placing too much text-base
 
 ## Wireframes
 
+Pages on the site
 ![Site Hierarchy](wireframes/flowchart.jpg)
+
+Desktop Wireframe
 ![Desktop Wireframe](wireframes/desktopwireframe.jpg)
 
-
-
-
+Mobile Wireframe
+![Mobile Wireframe](wireframes/mobilewireframe.jpg)
 
 
 ## Features
