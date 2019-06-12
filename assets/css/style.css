@@ -83,6 +83,13 @@ body {
 
 /*-----------Services Section*/
 
+.header {
+  background-color: #fafafa;
+  border-radius: 20px;
+  padding: 0px 10px 5px 5px;
+  margin-bottom: 10px;
+}
+
 .my-4 {
   color: #354c7c;
   padding-top: 20px;
@@ -102,6 +109,8 @@ body {
   color: #fafafa;
   padding-top: 20px;
   padding-bottom: 20px;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .card-title a {
@@ -150,11 +159,16 @@ h2 {
 h3 {
   color: #354c7c;
   padding-top: 20px;
-  padding bottom: 20px;
+  padding-bottom: 20px:
 }
 
 .text-white {
   color: #fafafa;
+}
+
+
+.image-fluid {
+  border-radius: 4px;
 }
 
 /*---------End About*/
