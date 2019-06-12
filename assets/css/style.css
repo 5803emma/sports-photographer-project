@@ -205,8 +205,7 @@ h3 {
   -o-transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border-radius: 4px;
-  width: 211.36px;
-  height: 211.36px;
+  overflow: hidden;
 }
 
 /*Original Credit: https://codepen.io/sdthornton/pen/wBZdXq via https://github.com/AJGreaves*/
@@ -314,6 +313,29 @@ footer {
 
 
 /*-------Media Queries*/
+
+/*phones*/
+@media screen and (max-width: 768px){ 
+    .fontchange-sm{
+        font-size: 20px;
+    }
+}
+
+/*phones and tablets*/
+@media screen and (max-width: 992px) { 
+	.gallery-img {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+		max-width: 50%;
+		padding: 10px;
+	}
+} 
 
 /*desktops and XL screens*/
 @media screen and (min-width: 993px) { 
