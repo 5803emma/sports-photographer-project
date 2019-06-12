@@ -173,7 +173,7 @@ Thanks to Ignatious Mentor for the idea to use FancyBox for the responsive galle
    
 ### Media
    
-- Photos are all original images by [Mark Hayes Photographer](https://www.sportsfile.com/)
+- Photos are all original images by [Mark Hayes Photographer](https://5803emma.github.io/sports-photographer-project/)
 - The Youtube channels referenced on the site belong to [Jared Polin](https://www.youtube.com/user/JaredPolin) and [Thomas Heaton](https://www.youtube.com/channel/UCfhW84xfA6gEc4hDK90rR1Q)
 - The footer styling using the Fontawesome social media links was taken from Code Insititutes Bootstrap Portfolio Project; then adapted and customised to suit the page
 - FavIcon was generated using the online [FavIcon Generator](https://www.favicongenerator.com/)
