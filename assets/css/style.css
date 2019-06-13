@@ -86,7 +86,7 @@ body {
 .header {
   background-color: #fafafa;
   border-radius: 20px;
-  padding: 0px 10px 5px 5px;
+  padding: 0 10 5 5;
   margin-bottom: 10px;
 }
 
@@ -150,6 +150,17 @@ body {
 }
 
 
+.btn-light {
+  color: #354c7c;
+  font-weight: bold;
+}
+
+.btn-light:hover {
+  color: #354c7c;
+  background-color: #B5D3E7;
+}
+
+
 /*---------End Services Section*/
 
 
@@ -165,7 +176,7 @@ h2 {
 h3 {
   color: #354c7c;
   padding-top: 20px;
-  padding-bottom: 20px:
+  padding-bottom: 20px;
 }
 
 .text-white {
