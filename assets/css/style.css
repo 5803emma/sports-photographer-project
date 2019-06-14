@@ -47,6 +47,10 @@ body {
   padding-top:10px;
 }
 
+.nav-links:hover {
+  text-decoration: none;
+}
+
 /*-----------End Navbar*/
 
 
@@ -159,6 +163,11 @@ body {
 .btn-light {
   color: #354c7c;
   font-weight: bold;
+}
+
+.p-blue
+{
+  color: #354c7c;
 }
 
 .btn-light:hover {
@@ -388,3 +397,4 @@ footer {
 		margin-top: 2rem;
 	}
 } 
+
