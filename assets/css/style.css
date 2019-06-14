@@ -39,7 +39,13 @@ body {
   transform:scale(1.1);
 }
 
-
+.nav-links
+{
+  color: rgba(255,255,255,.5);
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top:10px;
+}
 
 /*-----------End Navbar*/
 
